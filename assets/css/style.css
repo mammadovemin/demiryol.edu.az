@@ -1430,6 +1430,16 @@ img {
     padding: 50px 0;
   }
 
+  #mu-contact .mu-contact-area .mu-title .contact-item-box {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+
+  #mu-contact .mu-contact-area .mu-title .contact-item-box .contact-item {
+    padding-bottom: 20px;
+  }
+
   #mu-error {
     padding: 50px 0;
   }
@@ -1438,6 +1448,7 @@ img {
     font-size: 150px;
     line-height: 1.5;
   }
+  
 }
 
 @media (max-width: 640px) {

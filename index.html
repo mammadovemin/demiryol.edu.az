@@ -142,7 +142,11 @@
     <div class="mu-slider-single">
       <div class="mu-slider-img">
         <figure>
-          <img src="assets/img/slider/1.png" alt="img">
+          <picture>
+            <source media="(max-width: 640px)" srcset="assets/img/slider/slider1_1920x1080.png">
+            <source media="(max-width: 1200px)" srcset="assets/img/slider/slider1_1920x1200.png">
+            <img src="assets/img/slider/slider1_1920x500.png" alt="img">
+          </picture>
         </figure>
       </div>
     </div>
@@ -150,7 +154,11 @@
     <div class="mu-slider-single">
       <div class="mu-slider-img">
         <figure>
-          <img src="assets/img/slider/2.png" alt="img">
+          <picture>
+            <source media="(max-width: 640px)" srcset="assets/img/slider/slider2_1920x1080.png">
+            <source media="(max-width: 1200px)" srcset="assets/img/slider/slider2_1920x1200.png">
+            <img src="assets/img/slider/slider2_1920x500.png" alt="img">
+          </picture>
         </figure>
       </div>
     </div>
@@ -158,7 +166,11 @@
     <div class="mu-slider-single">
       <div class="mu-slider-img">
         <figure>
-          <img src="assets/img/slider/3.png" alt="img">
+          <picture>
+            <source media="(max-width: 640px)" srcset="assets/img/slider/slider3_1920x1080.png">
+            <source media="(max-width: 1200px)" srcset="assets/img/slider/slider3_1920x1200.png">
+            <img src="assets/img/slider/slider3_1920x500.png" alt="img">
+          </picture>
         </figure>
       </div>
     </div>
@@ -184,7 +196,7 @@
             </div>
             <!-- Start single service -->
             <div class="mu-service-single">
-              <span class="fa fa-table"></span>
+              <span class="fa fa-flask"></span>
               <h3>Təchizatlı emalatxanalar</h3>
             </div>
             <!-- Start single service -->
@@ -223,8 +235,7 @@
               </div>
               <div class="col-lg-6 col-md-6">
                 <div class="mu-about-us-right">
-                  <a id="mu-abtus-video"
-                    href="https://www.youtube.com/embed/vwKY24T1Xlg?si=su5GJeW1nEI8lpaw"
+                  <a id="mu-abtus-video" href="https://www.youtube.com/embed/vwKY24T1Xlg?si=su5GJeW1nEI8lpaw"
                     target="mutube-video">
                     <img src="assets/img/about-us.png" alt="img">
                   </a>
@@ -257,7 +268,7 @@
               <!-- Start counter item -->
               <div class="col-lg-3 col-md-3 col-sm-3">
                 <div class="mu-abtus-counter-single">
-                  <span class="fa fa-users"></span>
+                  <span class="fa fa-graduation-cap"></span>
                   <h4 class="counter">800</h4>
                   <p>Tələbələr</p>
                 </div>
@@ -275,7 +286,7 @@
               <!-- Start counter item -->
               <div class="col-lg-3 col-md-3 col-sm-3">
                 <div class="mu-abtus-counter-single no-border">
-                  <span class="fa fa-user-secret"></span>
+                  <span class="fa fa-user"></span>
                   <h4 class="counter">70</h4>
                   <p>Pedaqoji heyət</p>
                 </div>
@@ -480,10 +491,19 @@
               <div class="mu-footer-widget">
                 <h4>Əlaqə</h4>
                 <address>
-                  <p>Bakı şəhəri, Nəriman Nərimanov rayonu, Təbriz küçəsi 19</p>
-                  <p>Telefon: (012) 541-05-10 </p>
-                  <p>Veb səhifə: www.demiryol.edu.az</p>
-                  <p>Elektron poçt: info@demiryol.edu.az</p>
+                  <a
+                    href="https://www.google.com/maps/place/D%C9%99mir+Yolu+v%C9%99+Metropoliten+%C3%BCzr%C9%99+Bak%C4%B1+D%C3%B6vl%C9%99t+Pe%C5%9F%C9%99+T%C9%99hsil+M%C9%99rk%C9%99z/@40.389212,49.852929,16z/data=!4m6!3m5!1s0x40307d12a8fcde3d:0xc466fb4290089ce!8m2!3d40.3892119!4d49.8529287!16s%2Fg%2F11dd_nnr__?hl=ru&entry=ttu&g_ep=EgoyMDI0MTAwOC4wIKXMDSoASAFQAw%3D%3D">
+                    <p>Bakı şəhəri, Nəriman Nərimanov rayonu, Təbriz küçəsi 19</p>
+                  </a>
+                  <a href="tel:+994125410510">
+                    <p>Telefon: (012) 541-05-10 </p>
+                  </a>
+                  <a href="index.html">
+                    <p>Veb səhifə: www.demiryol.edu.az</p>
+                  </a>
+                  <a href="mailto:info@demiryol.edu.az">
+                    <p>Elektron poçt: info@demiryol.edu.az</p>
+                  </a>
                 </address>
               </div>
             </div>
@@ -503,6 +523,11 @@
     <!-- end footer bottom -->
   </footer>
   <!-- End footer -->
+
+
+
+
+
 
   <!-- jQuery library -->
   <script src="assets/js/jquery.min.js"></script>
